@@ -30,7 +30,6 @@ dist/
 *.spec2
 
 credentials.txt
-cursor_accounts.txt
 recaptcha.py
 install_requirements.bat
 
