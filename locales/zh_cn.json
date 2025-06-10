@@ -6,7 +6,7 @@
         "register": "注册新的Cursor账户",
         "register_google": "使用自己的Google账户注册",
         "register_github": "使用自己的GitHub账户注册",
-        "register_manual": "使用自定义邮箱注册Cursor",
+        "register_manual": "自动注册Cursor（推荐）",
         "quit": "关闭Cursor应用",
         "select_language": "更改语言",
         "select_chrome_profile": "选择Chrome配置文件",

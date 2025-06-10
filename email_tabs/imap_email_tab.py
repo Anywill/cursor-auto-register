@@ -44,8 +44,8 @@ class IMAPEmailTab(EmailTabInterface):
 
     def check_for_cursor_email(self):
         """检查是否有新的 Cursor 邮件"""
-        max_attempts = 5
-        retry_interval = 10  # 10秒间隔
+        max_attempts = 10
+        retry_interval = 5  # 5秒间隔
 
         for attempt in range(max_attempts):
             print(f"[调试] 第 {attempt + 1} 次尝试检查邮件...")
@@ -137,7 +137,6 @@ class IMAPEmailTab(EmailTabInterface):
                         for pattern in patterns:
                             match = re.search(pattern, body, re.IGNORECASE)
                             if match:
-                                print(match)
                                 code = match.group(1) if len(match.groups()) > 0 else match.group(0)
                                 print(f"[调试] 匹配到验证码: {code}")
                                 return code

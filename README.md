@@ -1,49 +1,41 @@
-# ➤ Cursor Free VIP
+# Cursor 注册助手
 
-<div align="center">
-<p align="center">
-  <img src="./images/logo.png" alt="Cursor Pro Logo" width="200" style="border-radius: 6px;"/>
-</p>
+## 简介
 
-<p align="center">
+完全免费的 Cursor 助手工具，提供以下功能：
+- 简化了功能，只保留自动注册的功能。
 
-[![Release](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/release/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Stars](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/stars/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/stargazers)
-</p>
+## Releases发布版本是免费使用的,打开就能用,无须账号和域名
 
-<h4>Cursor自动邮箱注册</h4>
+### 使用说明
 
-## 👀 How to use | 如何使用
-
-<details open>
-<summary><b>⭐ Auto Run Script | 腳本自動化運行</b></summary>
-
+### 1.1.安装依赖包
 ```bash
-
-pip install -r requirements.txt
-
-python main.py
-
-#选择2自动注册
-#注册完后，需要重启cursor才能使用
-
+pip install -y requirements.txt
 ```
 
+### 1.2.执行主程序
+```bash
+Python main.py
+```
 
-</details>
+### 1.3.选择2注册邮箱账号
+程序会自动创建随机邮箱，并获取验证码
+注意：验证码通过后的登录过程会失败几次，耐心等待就好了
 
-If you want to stop the script, please press Ctrl+C<br>要停止腳本，請按 Ctrl+C
+### 1.4.退出并重新打开cursor
+注册完的信息是写在文件的，跟当前cursor进程的内存值会有冲突，需要重启加载新信息。
 
 
-## 📩 Disclaimer | 免責聲明
 
-本工具僅供學習和研究使用，使用本工具所產生的任何後果由使用者自行承擔。 <br>
+**请勿滥用，合理使用**
 
-This tool is only for learning and research purposes, and any consequences arising from the use of this tool are borne
-by the user.
+## 声明
 
-## 📝 License | 授權
+本项目仅供学习交流使用，请勿用于商业用途。
 
-本項目採用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 授權。
-Please refer to the [LICENSE](LICENSE.md) file for details.
+本项目不承担任何法律责任，使用本项目造成的任何后果，由使用者自行承担。
+
+## 特别鸣谢
+
+本项目的开发过程中得到了众多大佬和社区成员的支持与帮助，在此特别感谢。
