@@ -38,7 +38,7 @@ python main.py
 
 ```ini
 [Browser]
-proxy = [http://127.0.0.1:7890](http://127.0.0.1:7890)
+proxy = http://127.0.0.1:7890
 ```
 
 #### 1.4. 重启 Cursor
