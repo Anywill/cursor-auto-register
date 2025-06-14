@@ -322,6 +322,7 @@
         "no_display_found": "未找到显示器。确保 X 服务器正在运行。",
         "try_export_display": "尝试: export DISPLAY=:0",
         "extension_load_error": "加载插件失败: {error}",
+        "extension_loaded": "chrome插件加载成功",
         "make_sure_chrome_chromium_is_properly_installed": "确保 Chrome/Chromium 已正确安装",
         "try_install_chromium": "尝试: sudo apt install chromium-browser"
     },
